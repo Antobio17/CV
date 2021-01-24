@@ -1,0 +1,16 @@
+# docker-compose.yml
+# To up the container with definition of the file:
+# docker-compose run --rm app npx create-react-app react-app --use npm
+
+version: '3.7'
+services:
+  app:
+    image: node:12-alpine
+    volumes:
+      # Synchronize the directory to not update
+      - ./:/app
+    working_dir: /app
+    ports: 
+      - 3000:3000
+    command: npm start
+
