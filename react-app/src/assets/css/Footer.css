@@ -40,7 +40,7 @@
     margin-top: 19px;
 }
 
-.Footer-social a, .Footer-contact p {
+.Footer-social a {
     margin-left: 9px;
     margin-top: 2px;
     transition-duration: 0.6s;

@@ -24,15 +24,15 @@ class Footer extends Component {
                 <div className="Footer-contact">
                     <h3>CONTACTA</h3>
                     <div className="Footer-contact-info">
-                        <img src={location} alt="Lugar" width="21" height="21"/>
+                        {/* <img src={location} alt="Lugar" width="21" height="21"/> */}
                         <p>Granada, España</p>
                     </div>
                     <div className="Footer-contact-info">
-                        <img src={mail} alt="Email" width="21" height="21"/>
+                        {/* <img src={mail} alt="Email" width="21" height="21"/> */}
                         <p>antoniojr997@gmail.com</p>
                     </div>
                     <div className="Footer-contact-info">
-                        <img src={tlf} alt="Tlf" width="21" height="21"/>
+                        {/* <img src={tlf} alt="Tlf" width="21" height="21"/> */}
                         <p>684144382</p>
                     </div>
                 </div>
