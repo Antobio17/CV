@@ -1,19 +1,19 @@
 import React, {Component} from 'react';
+import '../assets/css/Footer.css';
+
 // Images import
-import insta from '/app/src/assets/images/instagram.png';
-import github from '/app/src/assets/images/github.png';
-import location from '/app/src/assets/images/location.png';
-import tlf from '/app/src/assets/images/tlf.png';
-import mail from '/app/src/assets/images/mail.png';
-import logo from '/app/src/assets/images/logo.svg';
+import instagram_img from '../assets/images/instagram.png';
+import github_img from '../assets/images/github.png';
+import logo from '../assets/images/logo.svg';
 
 
 class Footer extends Component {
 
     // The method responsible for displaying the view of the component
     render(){
+        const { location, email, tlf, instagram, github } = this.props;
         return (
-            <footer className="Footer">
+            <div className="Footer">
                 <div className="Footer-develop">
                     <div className="Footer-develop-text">
                         <p>Web desarrollada con </p>
@@ -25,26 +25,26 @@ class Footer extends Component {
                     <h3>CONTACTA</h3>
                     <div className="Footer-contact-info">
                         {/* <img src={location} alt="Lugar" width="21" height="21"/> */}
-                        <p>Granada, España</p>
+                        <p>{location}</p>
                     </div>
                     <div className="Footer-contact-info">
                         {/* <img src={mail} alt="Email" width="21" height="21"/> */}
-                        <p>antoniojr997@gmail.com</p>
+                        <p>{email}</p>
                     </div>
                     <div className="Footer-contact-info">
                         {/* <img src={tlf} alt="Tlf" width="21" height="21"/> */}
-                        <p>684144382</p>
+                        <p>{tlf}</p>
                     </div>
                 </div>
                 <div className="Footer-social">
                     <h3>SIGUEME EN</h3>
                     <div className="Footer-social-info">
-                        <img src={insta} alt="Instagram" width="23" height="23"/>
-                        <a href="https://www.instagram.com/antobio17/">Instagram</a>
+                        <img src={instagram_img} alt="Instagram" width="23" height="23"/>
+                        <a href={instagram}>Instagram</a>
                     </div>
                     <div className="Footer-social-info Footer-social-github">
-                        <img src={github} alt="Github" width="20" height="20"/>
-                        <a href="https://github.com/Antobio17">Github</a>
+                        <img src={github_img} alt="Github" width="20" height="20"/>
+                        <a href={github}>Github</a>
                     </div>
                 </div>
                 <div className="Footer-message">
@@ -53,7 +53,7 @@ class Footer extends Component {
                     <h3>VISITA</h3>
                     <h3>¡HASTA PRONTO!</h3>
                 </div>
-            </footer>
+            </div>
         );
     }
 

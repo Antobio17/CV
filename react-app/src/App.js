@@ -1,34 +1,44 @@
-import logo from './assets/images/logo.svg';
 import './assets/css/App.css';
-import './assets/css/Footer.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
-
-//To import components
-import MyComponent from './components/MyComponent';
+// To import components
 import Footer from './components/Footer';
+import Card from './components/Card';
+import Header from './components/Header';
+
+// To import images
+import img_profile from './assets/images/img_profile.png';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-        <h1>Hola Mundo!!</h1>
+      <header>
+        <Header
+          img_profile={img_profile}
+          name="Antonio"
+          intro="Actualmente estudio Ingeniería Informatica en la UGR"
+        />
       </header>
-      <main>
-        <p>Container</p>
-      </main> 
-      <Footer />
+
+      <main className="Main">
+        <div className="Container">
+          <Card title="Tecnologías"/>
+          <Card title="Conocimientos"/>
+          <Card title="Otros"/>
+          {/* <Card title="Conocimientos"/>
+          <Card title="Otros"/> */}
+        </div>
+      </main>
+
+      <footer>
+        <Footer 
+          location="Granada, España" 
+          email="antoniojr997@gmail.com" 
+          tlf="684144382" 
+          instagram="https://www.instagram.com/antobio17/" 
+          github="https://github.com/Antobio17"
+        />
+      </footer>
     </div>
   );
 }

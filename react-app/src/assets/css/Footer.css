@@ -3,6 +3,9 @@
     justify-content: center;
     color: white;
     background-color: #282c34;
+    bottom: 0px;
+    width: 100%;
+    font-family: "Radikal Thin";
 }
 
 .Footer h3 {
@@ -32,34 +35,28 @@
 
 .Footer-develop-text {
     display: flex;
-    margin-top: 100px;
+    margin-top: 115px;
 }
 
 .Footer-develop-text p{
     margin-right: 10px;
-    margin-top: 19px;
 }
 
 .Footer-social a {
     margin-left: 9px;
-    margin-top: 2px;
     transition-duration: 0.6s;
 }
 
 
 .Footer-social a:hover {
     font-size: 18px;
-    margin-bottom: 4px;
     color: white;
     transition-duration: 0.6s;
+    text-decoration: none;
 }
 
 .Footer-social-github {
     margin-left: 2px;
-}
-
-.Footer-message {
-    margin-top: 68px;
 }
 
 .Footer-message h3 {
