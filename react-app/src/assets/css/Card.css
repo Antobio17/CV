@@ -1,21 +1,22 @@
-/* 
 .Card {
     margin: 50px;
     min-width: 200px;
-    border: 1px white solid;
+    border: 1px black solid;
     border-radius: 15px;
     background-size: cover;
-    box-shadow: 4px 2px 2px 1px #282c34;
     background-image: url('../images/wallpeper_card.jpg');
-    transition-duration: 1s;
+    transition-duration: 0.3s;
 }
 
 .Card:hover {
     border: 1px #282c34 solid;
-    background-color: rgba(97, 218, 251, 0.8);
-    background-image: none;
-    /* background-image: linear-gradient(rgba(97, 218, 251, 0.8),rgba(97, 218, 251, 0.8)), url('../images/wallpeper_card.jpg'); *//*
-    transition-duration: 1s;
+    background-image: url('../images/wallpeper_card.jpg');
+    background-color: rgba(97, 218, 251);
+    background-blend-mode: overlay;
+    /* background-image: none; */
+    box-shadow: 4px 2px 2px 1px #282c34;
+    /* background-image: linear-gradient(rgba(97, 218, 251, 0.8),rgba(97, 218, 251, 0.8)), url('../images/wallpeper_card.jpg'); */
+    transition-duration: 0.3s;
 }
 
 .Card p {
@@ -26,67 +27,3 @@
     border-radius: 15px;
     color: white;
 } 
-*/
-
-.flip-container{
-    -webkit-perspective: 1000px;
-    perspective: 1000px;
-    padding: 50px;
-    position: relative;
-    margin: 10px auto;
-    width: 500px;
-    font-family: "Radikal Thin";
-}
-
-.Card {
-    width: 500px;
-    height: 50px;
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    transform-origin: 100% 25px;
-    margin: 5px;
-}
-.Card:hover, .Card.flip{
-    transform: rotateX(180deg);
-}
-
-.Front, .Back{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    text-align: center;
-}
-.Front{
-    transform: rotateX(0deg);
-    z-index: 2;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 70px;
-    border: 1px white solid;
-    border-radius: 15px;
-    background-size: cover;
-    box-shadow: 4px 2px 2px 1px #282c34;
-    background-image: url('../images/wallpeper_card.jpg');
-}
-
-.Front p {
-    margin: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 30px;
-    background-color: #282c34;
-    border-radius: 15px;
-    color: white;
-} 
-
-.Back{
-    box-shadow: 4px 2px 2px 1px #282c34;
-    transform: rotateX(180deg);
-    border: 1px #282c34 solid;
-    border-radius: 15px;
-    background-color: rgba(97, 218, 251, 0.8);
-    background-image: none;
-}

@@ -16,14 +16,14 @@
 .Header img {
     margin: 20px;   
     filter: grayscale(80%);
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 }
 
 .Header img:hover {
     filter: none;
-    width: 310px;
-    height: 310px;
-    transition-duration: 1s;
+    width: 305px;
+    height: 305px;
+    transition-duration: 0.4s;
 }
 
 /* background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149)); */
