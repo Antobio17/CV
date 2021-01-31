@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: "Radikal Thin";
+  background-color: #eff2f5;
 }
 
 .App-logo {
@@ -42,6 +43,7 @@
 }
 
 .Container{
-  width: 40%;
+  display: flex;
+  /* width: 40%; */
   margin-bottom: 100px;
 }

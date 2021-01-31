@@ -21,9 +21,9 @@ class DarkMode extends Component {
 }
 
 function switchTheme(e) {
-    document.body.classList.toggle("Dark-Mode-Activated");
-    document.querySelectorAll('.Card').forEach(card => {
-        card.classList.toggle("Dark-Mode-Card-Activated");
+    document.querySelector('.App').classList.toggle("Dark-Mode-Activated");
+    document.querySelectorAll('.CardContainer').forEach(cardContainer => {
+        cardContainer.classList.toggle("Dark-Mode-CardContainer-Activated");
     });
 }
 

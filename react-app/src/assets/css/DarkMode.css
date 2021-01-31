@@ -51,8 +51,8 @@
 .slider:before {
     position: absolute;
     content: "";
-    height: 21px;
-    width: 21px;
+    height: 19px;
+    width: 19px;
     left: 4px;
     bottom: 3px;
     background-color: white;
@@ -61,11 +61,11 @@
 }
 
 input:checked + .slider {
-    background-color: #ccc;
+    background-color: white;
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px #ccc;
+    box-shadow: 0 0 1px white;
 }
 
 input:checked + .slider:before {

@@ -3,12 +3,20 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 // To import components
 import Footer from './components/Footer';
-import Card from './components/Card';
 import Header from './components/Header';
 import DarkMode from './components/DarkMode';
 
+
 // To import images
 import img_profile from './assets/images/img_profile.png';
+import img_tecnologias from './assets/images/img_tecnologias.png';
+import img_conocimientos from './assets/images/img_conocimientos.png';
+import img_otros from './assets/images/img_otros.png';
+import CardContainer from './components/CardContainer';
+import Tecnologias from './components/Tecnologias';
+import Conocimientos from './components/Conocimientos';
+import Otros from './components/Otros';
+
 
 function App() {
   return (
@@ -24,11 +32,15 @@ function App() {
 
       <main className="Main">
         <div className="Container">
-          <Card title="Tecnologías"/>
-          <Card title="Conocimientos"/>
-          <Card title="Otros"/>
-          {/* <Card title="Conocimientos"/>
-          <Card title="Otros"/> */}
+          <CardContainer img={img_tecnologias} title="Tecnologías">
+            <Tecnologias/>
+          </CardContainer>
+          <CardContainer img={img_conocimientos} title="Conocimientos">
+            <Conocimientos/>
+          </CardContainer>
+          <CardContainer img={img_otros} title="Otros">
+            <Otros/>
+          </CardContainer>
         </div>
       </main>
 
