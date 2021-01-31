@@ -11,6 +11,10 @@
     color: white;
 }
 
+.Dark-Mode-Card-Activated {
+    border: 2px white solid;
+}
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
