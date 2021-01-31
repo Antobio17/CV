@@ -1,22 +1,20 @@
 .Card {
     margin: 50px;
     min-width: 200px;
-    border: 1px black solid;
+    border: 2px #282c34 solid;
     border-radius: 15px;
     background-size: cover;
     background-image: url('../images/wallpeper_card.jpg');
-    transition-duration: 0.3s;
 }
 
 .Card:hover {
-    border: 1px #282c34 solid;
     background-image: url('../images/wallpeper_card.jpg');
     background-color: rgba(97, 218, 251);
     background-blend-mode: overlay;
+    transition-duration: 0.3s;
     /* background-image: none; */
     box-shadow: 4px 2px 2px 1px #282c34;
     /* background-image: linear-gradient(rgba(97, 218, 251, 0.8),rgba(97, 218, 251, 0.8)), url('../images/wallpeper_card.jpg'); */
-    transition-duration: 0.3s;
 }
 
 .Card p {

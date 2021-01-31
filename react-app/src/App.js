@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Footer from './components/Footer';
 import Card from './components/Card';
 import Header from './components/Header';
+import DarkMode from './components/DarkMode';
 
 // To import images
 import img_profile from './assets/images/img_profile.png';
@@ -12,6 +13,7 @@ import img_profile from './assets/images/img_profile.png';
 function App() {
   return (
     <div className="App">
+      <DarkMode/>
       <header>
         <Header
           img_profile={img_profile}

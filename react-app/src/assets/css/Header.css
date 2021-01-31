@@ -3,7 +3,7 @@
     vertical-align: middle;
     justify-content: center;
     font-family: "Radikal Thin";
-    margin: 50px;
+    padding: 50px;
 }
 
 .Header-text {
@@ -15,15 +15,8 @@
 
 .Header img {
     margin: 20px;   
-    filter: grayscale(80%);
     transition-duration: 0.4s;
-}
-
-.Header img:hover {
-    filter: none;
-    width: 305px;
-    height: 305px;
-    transition-duration: 0.4s;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
 
 /* background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149)); */
