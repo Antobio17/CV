@@ -1,7 +1,8 @@
 
 .DarkMode {
     margin: 20px;
-    float: right;
+    position: fixed;
+    right: 0;
     font-size: 12px;
 }
 
