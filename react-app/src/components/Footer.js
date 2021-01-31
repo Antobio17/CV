@@ -19,7 +19,7 @@ class Footer extends Component {
                         <p>Web desarrollada con </p>
                         <h3>REACT</h3>
                     </div>
-                    <img src={logo} className="App-logo" alt="logo" width="200" height="200"/>
+                    <img src={logo} className="App-logo" alt="logo" width="180" height="180"/>
                 </div>
                 <div className="Footer-contact">
                     <h3>CONTACTA</h3>
