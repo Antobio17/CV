@@ -9,7 +9,7 @@ class Otros extends Component {
     render(){
         return (
             <div className="Otros">
-                <p>Nivel de Inglés básico</p>
+                <p>Nivel de Inglés básico</p><hr/>
                 <p>Permiso de conducir clase B</p>
             </div>
         );

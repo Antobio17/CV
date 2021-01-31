@@ -8,6 +8,10 @@
     font-family: "Radikal Thin";
 }
 
+.Dark-Mode-Footer-Activated {
+    background-color: #1c1f24;
+}
+
 .Footer h3 {
     font-family: "Radikal Black";
 }
@@ -44,13 +48,13 @@
 }
 
 .Footer-social a {
+    margin-top: 2px;
     margin-left: 9px;
     transition-duration: 0.6s;
 }
 
 
 .Footer-social a:hover {
-    font-size: 18px;
     color: white;
     transition-duration: 0.6s;
     text-decoration: none;
@@ -62,4 +66,30 @@
 
 .Footer-message h3 {
     margin: 0;
+}
+
+@media only screen and (max-width: 1075px) {
+    .Footer {
+        display: block;
+    }
+    
+    .Footer-develop {
+        display:none !important;
+    }
+
+    .Footer-contact {
+        padding-top: 80px;
+    }
+
+    .Footer-contact, .Footer-social, .Footer-message, .Footer-develop {
+        text-align: center;
+    }
+
+    .Footer-social-info, .Footer-contact-info {
+        justify-content: center;
+    }
+
+    .Footer-message {
+        padding-bottom: 80px;
+    }
 }

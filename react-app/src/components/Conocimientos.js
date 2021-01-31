@@ -9,13 +9,13 @@ class Conocimientos extends Component {
     render(){
         return (
             <div className="Conocimientos">
-                <p>Framework Django de Python</p>
-                <p>Libreria Flask de Python</p>
-                <p>Framework React de JavaScript</p>
-                <p>Creación y manejo de APIs con FLASK</p>
-                <p>Uso de Docker para proyectos</p>
-                <p>Uso de GIT</p>
-                <p>JQuey y Ayax para Front-End</p>
+                <p>Framework Django de Python</p><hr/>
+                <p>Libreria Flask de Python</p><hr/>
+                <p>Framework React de JavaScript</p><hr/>
+                <p>Creación y manejo de APIs con FLASK</p><hr/>
+                <p>Uso de Docker para proyectos</p><hr/>
+                <p>Uso de GIT</p><hr/>
+                <p>JQuey y Ayax para Front-End</p><hr/>
                 <p>Libreria OPENGL de C++ para gráficos 3D por ordenador</p>
             </div>
         );

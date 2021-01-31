@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import '../assets/css/Tecnologias.css';
 
 // Images import
-import img_tecnologias from '../assets/images/img_tecnologias.png';
 
 class Tecnologias extends Component {
 
@@ -10,12 +9,12 @@ class Tecnologias extends Component {
     render(){
         return (
             <div className="Tecnologias">
-                <p>Uso habitual de C++</p>
-                <p>Uso habitual de Python</p>
-                <p>Uso habitual de HTML</p>
-                <p>Uso habitual de CSS</p>
-                <p>Uso habitual de JavaScript</p>
-                <p>Uso habitual de sistemas Linux</p>
+                <p>Uso habitual de C++</p><hr/>
+                <p>Uso habitual de Python</p><hr/>
+                <p>Uso habitual de HTML</p><hr/>
+                <p>Uso habitual de CSS</p><hr/>
+                <p>Uso habitual de JavaScript</p><hr/>
+                <p>Uso habitual de sistemas Linux</p><hr/>
                 <p>Uso ocasional de PHP</p>
             </div>
         );

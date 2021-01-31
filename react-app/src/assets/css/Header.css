@@ -19,4 +19,18 @@
     filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
 }
 
+@media only screen and (max-width: 1075px) {
+    .Header {
+      display: block;
+    }
+
+    .Header-text {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .Header img {
+        margin: 0px;
+    }
+}
 /* background: linear-gradient(to right, rgb(97, 67, 133), rgb(81, 99, 149)); */

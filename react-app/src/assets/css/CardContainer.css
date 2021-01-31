@@ -29,3 +29,13 @@
 .Dark-Mode-CardContainer-Activated {
     background-color:  #282c34;
 }
+
+hr {
+    background-color: rgb(149, 149, 149);
+}
+
+@media only screen and (max-width: 1075px) {
+    .CardContainer-content {
+        text-align: left;
+    }
+}

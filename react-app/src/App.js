@@ -26,7 +26,8 @@ function App() {
         <Header
           img_profile={img_profile}
           name="Antonio"
-          intro="Actualmente estudio Ingeniería Informatica en la UGR"
+          intro="Tengo 23 años y actualmente estudio Ingeniería Informatica en la UGR"
+          goal="Desarrollo Web"
         />
       </header>
 

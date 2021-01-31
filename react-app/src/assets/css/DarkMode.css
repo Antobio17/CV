@@ -1,4 +1,3 @@
-
 .DarkMode {
     margin: 20px;
     position: fixed;
@@ -54,7 +53,7 @@
     height: 19px;
     width: 19px;
     left: 4px;
-    bottom: 3px;
+    bottom: 4px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
@@ -82,4 +81,11 @@ input:checked + .slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 1075px) {
+    .DarkMode {
+        position: absolute;
+        float: right;
+    }
 }

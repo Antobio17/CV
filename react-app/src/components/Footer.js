@@ -16,7 +16,7 @@ class Footer extends Component {
             <div className="Footer">
                 <div className="Footer-develop">
                     <div className="Footer-develop-text">
-                        <p>Web desarrollada con </p>
+                        <p>Web <strong>propia</strong> desarrollada con </p>
                         <h3>REACT</h3>
                     </div>
                     <img src={logo} className="App-logo" alt="logo" width="180" height="180"/>
