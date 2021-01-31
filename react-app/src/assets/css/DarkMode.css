@@ -9,10 +9,12 @@
 .Dark-Mode-Activated {
     background-color: #363a44;
     color: white;
+    transition: 0.3s;
 }
 
 .Dark-Mode-Card-Activated {
     border: 2px white solid;
+    transition: 0.3s;
 }
 
 /* The switch - the box around the slider */

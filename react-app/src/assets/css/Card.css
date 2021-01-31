@@ -5,6 +5,7 @@
     border-radius: 15px;
     background-size: cover;
     background-image: url('../images/wallpeper_card.jpg');
+    transition: 0.3s;
 }
 
 .Card:hover {
