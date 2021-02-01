@@ -33,13 +33,13 @@ function App() {
 
       <main className="Main">
         <div className="Container">
-          <CardContainer img={img_tecnologias} title="Tecnologías">
+          <CardContainer img={img_tecnologias} title="Tecnologías" alt="Tecnologías">
             <Tecnologias/>
           </CardContainer>
-          <CardContainer img={img_conocimientos} title="Conocimientos">
+          <CardContainer img={img_conocimientos} title="Conocimientos" alt="Conocimientos">
             <Conocimientos/>
           </CardContainer>
-          <CardContainer img={img_otros} title="Otros">
+          <CardContainer img={img_otros} title="Otros" alt="Otros">
             <Otros/>
           </CardContainer>
         </div>

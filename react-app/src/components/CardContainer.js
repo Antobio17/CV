@@ -10,7 +10,7 @@ class CardContainer extends Component {
         return (
             <div className="CardContainer">
                 <div className="CardContainer-header">
-                    <img src={this.props.img} width="60" height="60"/>
+                    <img src={this.props.img} alt={this.props.alt} width="60" height="60"/>
                     <p><strong>{this.props.title}</strong></p>
                 </div>
                 <div className="CardContainer-content">
