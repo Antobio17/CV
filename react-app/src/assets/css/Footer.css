@@ -71,6 +71,7 @@
 @media only screen and (max-width: 1075px) {
     .Footer {
         display: block;
+        height: 670px;
     }
     
     .Footer-develop {

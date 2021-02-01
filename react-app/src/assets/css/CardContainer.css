@@ -38,4 +38,8 @@ hr {
     .CardContainer-content {
         text-align: left;
     }
+    
+    .CardContainer:hover{
+        padding: 80px;
+    }
 }
