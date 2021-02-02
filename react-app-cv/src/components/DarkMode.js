@@ -13,7 +13,7 @@ class DarkMode extends Component {
                 <input type="checkbox" onClick={e => switchTheme(e)}/>
                 <span className="slider round"></span>
                 </label>
-                <p id="Modo-text"><strong>DARKMODE</strong></p>
+                <p id="Modo-text"><strong>CHANGE MODE</strong></p>
             </div>
         );
     }
@@ -22,7 +22,7 @@ class DarkMode extends Component {
 
 function switchTheme(e) {
     document.querySelector('.App').classList.toggle("Dark-Mode-Activated");
-    document.querySelector('.Footer').classList.toggle("Dark-Mode-Footer-Activated");
+    document.querySelector('.Foot').classList.toggle("Dark-Mode-Footer-Activated");
     document.querySelectorAll('.CardContainer').forEach(cardContainer => {
         cardContainer.classList.toggle("Dark-Mode-CardContainer-Activated");
     });

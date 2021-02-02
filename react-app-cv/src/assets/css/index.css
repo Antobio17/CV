@@ -1,3 +1,14 @@
+
+@font-face {
+  font-family: Radikal Black;
+  src: url('../fonts/Radikal Black.ttf');
+}
+
+@font-face {
+  font-family: Radikal Thin;
+  src: url('../fonts/Radikal Thin.ttf');
+}
+
 body {
   zoom: 80%;
   margin: 0;
@@ -15,6 +26,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (min-width: 1075px) and (max-device-width: 1700px) {
+  body {
+    zoom: 60%;
+  }
 }
 
 @media only screen and (max-width: 1075px) {

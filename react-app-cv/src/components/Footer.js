@@ -13,46 +13,49 @@ class Footer extends Component {
     render(){
         const { location, email, tlf, instagram, github } = this.props;
         return (
-            <div className="Footer">
-                <div className="Footer-develop">
-                    <div className="Footer-develop-text">
-                        <p>Web <strong>propia</strong> desarrollada con </p>
-                        <h3>REACT</h3>
+            <div className="Foot">
+                <div className="Footer">
+                    <div className="Footer-develop">
+                        <div className="Footer-develop-text">
+                            <p>Web <strong>propia</strong> desarrollada con </p>
+                            <h3>REACT</h3>
+                        </div>
+                        <img src={logo} className="App-logo" alt="logo" width="180" height="180"/>
                     </div>
-                    <img src={logo} className="App-logo" alt="logo" width="180" height="180"/>
+                    <div className="Footer-contact">
+                        <h3>CONTACTA</h3>
+                        <div className="Footer-contact-info">
+                            {/* <img src={location} alt="Lugar" width="21" height="21"/> */}
+                            <p>{location}</p>
+                        </div>
+                        <div className="Footer-contact-info">
+                            {/* <img src={mail} alt="Email" width="21" height="21"/> */}
+                            <p>{email}</p>
+                        </div>
+                        <div className="Footer-contact-info">
+                            {/* <img src={tlf} alt="Tlf" width="21" height="21"/> */}
+                            <p>{tlf}</p>
+                        </div>
+                    </div>
+                    <div className="Footer-social">
+                        <h3>SIGUEME EN</h3>
+                        <div className="Footer-social-info">
+                            <img src={instagram_img} alt="Instagram" width="23" height="23"/>
+                            <a href={instagram}>Instagram</a>
+                        </div>
+                        <div className="Footer-social-info Footer-social-github">
+                            <img src={github_img} alt="Github" width="20" height="20"/>
+                            <a href={github}>Github</a>
+                        </div>
+                    </div>
+                    <div className="Footer-message">
+                        <h3>GRACIAS</h3>
+                        <h3>POR SU</h3>
+                        <h3>VISITA</h3>
+                        <h3>¡HASTA PRONTO!</h3>
+                    </div>
                 </div>
-                <div className="Footer-contact">
-                    <h3>CONTACTA</h3>
-                    <div className="Footer-contact-info">
-                        {/* <img src={location} alt="Lugar" width="21" height="21"/> */}
-                        <p>{location}</p>
-                    </div>
-                    <div className="Footer-contact-info">
-                        {/* <img src={mail} alt="Email" width="21" height="21"/> */}
-                        <p>{email}</p>
-                    </div>
-                    <div className="Footer-contact-info">
-                        {/* <img src={tlf} alt="Tlf" width="21" height="21"/> */}
-                        <p>{tlf}</p>
-                    </div>
-                </div>
-                <div className="Footer-social">
-                    <h3>SIGUEME EN</h3>
-                    <div className="Footer-social-info">
-                        <img src={instagram_img} alt="Instagram" width="23" height="23"/>
-                        <a href={instagram}>Instagram</a>
-                    </div>
-                    <div className="Footer-social-info Footer-social-github">
-                        <img src={github_img} alt="Github" width="20" height="20"/>
-                        <a href={github}>Github</a>
-                    </div>
-                </div>
-                <div className="Footer-message">
-                    <h3>GRACIAS</h3>
-                    <h3>POR SU</h3>
-                    <h3>VISITA</h3>
-                    <h3>¡HASTA PRONTO!</h3>
-                </div>
+                <div className="FontsLicense">Font made from <a href="http://www.onlinewebfonts.com"><strong>oNline Web Fonts</strong></a> is licensed by CC BY 3.0</div>
             </div>
         );
     }

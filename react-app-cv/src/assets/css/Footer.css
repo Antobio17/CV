@@ -1,15 +1,35 @@
-.Footer {
-    display: flex;
-    justify-content: center;
-    color: white;
-    background-color: #282c34;
+.Foot {
+    background-color: #1c1f24;
     bottom: 0px;
     width: 100%;
     font-family: "Radikal Thin";
+    color: white;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+}
+
+.FontsLicense {
+    padding-bottom: 30px;
+}
+
+.FontsLicense a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+
+.FontsLicense a:hover{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
 }
 
 .Dark-Mode-Footer-Activated {
-    background-color: #1c1f24;
+    background-color: #282c34;
 }
 
 .Footer h3 {
